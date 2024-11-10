@@ -1,0 +1,134 @@
+
+.container {
+
+  padding: 20px;
+}
+.contact-inner {
+  background-color:#ffedd5;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.contact-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+h1 {
+  color:#b45309;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.form-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input1,
+.form-textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input1 {
+  flex: 1;
+}
+label {
+  color: #7a7f86;
+  font-size: 1rem;
+}
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #c9ced8;
+  background-color: rgb(250, 248, 248);
+  color: #55585c;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.form-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn {
+  background-color: #374151;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 9px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #ffd5a7;
+}
+
+@media (max-width: 800px) {
+  .contact-inner {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+  .form-contact {
+    flex-direction: column;
+  }
+
+  .form-input {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .input1,
+  .form-textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+}

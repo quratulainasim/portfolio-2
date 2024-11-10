@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .main {
+    min-height: 100vh;
+    background-color: #ffedd5; 
+    padding: 20px;
+  }
+  
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem; 
+    padding: 5rem 0;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-section {
+      flex-direction: row;
+      gap: 3.5rem;
+    }
+  }
+  
+
+  .text-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.875rem; 
+    font-weight: 700; 
+    color: #b91c1c; 
+    margin: 1.25rem;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 2.25rem; 
+    }
+  }
+  
+  .subtitle {
+    font-size: 1rem; 
+    color: #000;
+    font-weight: 600; 
+    margin-top: 0.75rem;
+  }
+  
+  @media (min-width: 768px) {
+    .subtitle {
+      font-size: 1.125rem; 
+    }
+  }
+
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    
+  }
+
+  .vision-goals {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vision-title {
+    font-size: 1.875rem; 
+    font-weight: 700; 
+    color: #b91c1c; 
+  }
+  
+  .vision-text {
+    font-size: 1rem; 
+    color: #000;
+    font-weight: 600; 
+    padding: 1rem 0;
+    max-width: 1400px;
+  }
+  
+  .goal-div {
+    width: 100vw;
+    margin: 0;
+    padding: 0; 
+     overflow: hidden;
+
+}
+  .goal-image {
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+    display: block; 
+  }
+  
